@@ -4,6 +4,7 @@ require "rspec/mocks/argument_list_matcher"
 require "rspec/mocks/argument_matchers"
 
 require "rspec/sidekiq/matchers/base"
+require "rspec/sidekiq/matchers/be_dead"
 require "rspec/sidekiq/matchers/be_delayed"
 require "rspec/sidekiq/matchers/be_expired_in"
 require "rspec/sidekiq/matchers/be_processed_in"
